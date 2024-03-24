@@ -8,14 +8,14 @@
   "stack": "container",
   "env": {
     "DATABASE_URL": {
-      "description": "your mongodb database url",
+      "description": "mongodb+srv://aruseivictor:xVMHUd5TdPPOm7xi@cluster1.tljnavr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1",
       "required": false,
-      "value": ""
+      "value": "mongodb+srv://aruseivictor:xVMHUd5TdPPOm7xi@cluster1.tljnavr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "Xlicon_561b6878-90b1-4066-8359-2f268d3fb6bf",
       "required": true,
-      "value": ""
+      "value": "Xlicon_561b6878-90b1-4066-8359-2f268d3fb6bf"
     },
     "MODE": {
       "description": "mode public or private",
@@ -25,7 +25,7 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -39,18 +39,18 @@
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
       "required": false,
-      "value": ""
+      "value": "true"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
      "REMOVEBG_KEY": {
       "description": "your RemoveBg api key",
